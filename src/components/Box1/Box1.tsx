@@ -5,7 +5,7 @@ const Box1 = () => {
     const [animation, setAnimation] = useState(false)
 
     return (
-        <div className="boxContainer">
+        <div className="box-container">
             <motion.div
                 className="box"
                 animate={{
