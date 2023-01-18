@@ -1,2 +1,1 @@
-# framerMotionTest
-yo
+# some basic animations
