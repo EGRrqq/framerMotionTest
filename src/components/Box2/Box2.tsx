@@ -8,10 +8,10 @@ const Box2 = () => {
                 className="box"
                 drag
                 dragConstraints={{
-                    right: 20,
-                    left: -20,
-                    top: 10,
-                    bottom: 10
+                    right: 10,
+                    left: -10,
+                    top: 5,
+                    bottom: 5
                 }}
                 whileHover={{
                     scale: 1.1
