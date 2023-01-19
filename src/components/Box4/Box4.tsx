@@ -2,8 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Box4 = () => {
-
-
     return (
         <div className="box-container">
             <motion.div
