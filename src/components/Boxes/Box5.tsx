@@ -8,16 +8,6 @@ const Box4 = () => {
         <div className="box-container">
             <button onClick={() => {
                 control.start({
-                    x: "70vw",
-                    transition: {
-                        duration: 2
-                    }
-                })
-            }}>
-                move right
-            </button>
-            <button onClick={() => {
-                control.start({
                     x: 0,
                     transition: {
                         duration: 2
@@ -36,6 +26,9 @@ const Box4 = () => {
             }}>
                 circle
             </button>
+            <button onClick={() => control.stop()}>
+                stop
+            </button>
             <button onClick={() => {
                 control.start({
                     borderRadius: 0,
@@ -46,8 +39,15 @@ const Box4 = () => {
             }}>
                 square
             </button>
-            <button onClick={() => control.stop()}>
-                stop
+            <button onClick={() => {
+                control.start({
+                    x: "70vw",
+                    transition: {
+                        duration: 2
+                    }
+                })
+            }}>
+                move right
             </button>
             <motion.div
                 className="box"
